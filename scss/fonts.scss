@@ -1,0 +1,8 @@
+@import 'mixins';
+@include font-face('IdealistSans', 'IdealistSans', 400);
+@include font-face('Montserrat', 'Montserrat-Regular', 400);
+@font-face {
+    font-family: "Cimero Pro";
+    src: url('../fonts/CimeroPro.otf');
+    font-weight: 400;
+}

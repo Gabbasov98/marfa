@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    height: 100%;
+    overflow-x: hidden;
+    color: #FFFFFF;
+    background: #00031B;
+    &.fixed-body {
+        overflow-y: hidden;
+    }
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.idealist {
+    font-family: 'Idealist Sans', sans-serif;
+}
+
+.cimero {
+    font-family: 'Cimero Pro', sans-serif;
+}
+
+.display1 {
+    font-size: 64px;
+    @media screen and (max-width: 1400px) {
+        font-size: 60px;
+    }
+    @media screen and (max-width: 1200px) {
+        font-size: 54px;
+    }
+    @media screen and (max-width: 1050px) {
+        font-size: 44px;
+        line-height: 130%;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 34px;
+    }
+}
+
+.text-decor {
+    position: relative;
+    color: #FCC500;
+    display: inline-flex;
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 14px;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 3px;
+        background-image: url(../img/decor.svg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        @media screen and (max-width: 768px) {
+            width: 110%;
+            margin-top: 0;
+        }
+    }
+}
