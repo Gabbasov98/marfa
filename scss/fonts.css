@@ -17,8 +17,8 @@
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: "Cimero Pro";
-  src: url("../fonts/CimeroPro.otf");
+  font-family: "BoomBoom";
+  src: url("../fonts/boomboom.ttf"), url("../fonts/boomboom.woff"), url("../fonts/boomboom.woff2");
   font-weight: 400; }
 
 /*# sourceMappingURL=fonts.css.map */

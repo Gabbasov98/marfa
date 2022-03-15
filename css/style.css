@@ -20,8 +20,8 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Cimero Pro";
-  src: url("../fonts/CimeroPro.otf");
+  font-family: "BoomBoom";
+  src: url("../fonts/boomboom.ttf"), url("../fonts/boomboom.woff"), url("../fonts/boomboom.woff2");
   font-weight: 400;
 }
 * {
@@ -208,7 +208,7 @@ body.fixed-body {
 }
 
 .cimero {
-  font-family: 'Cimero Pro', sans-serif;
+  font-family: 'BoomBoom', sans-serif;
 }
 
 .display1 {
