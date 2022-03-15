@@ -1,45 +1,47 @@
-.main__inner {
-  position: relative;
-  padding: 100px 0 140px; }
-.main__img {
-  position: absolute;
-  right: 0;
-  top: 0;
-  transform: translateX(120px); }
-.main__title {
-  max-width: 920px; }
-.main__desc {
-  max-width: 810px;
-  font-size: 24px;
-  line-height: 140%;
-  margin-top: 34px; }
-.main__btn {
-  width: 302px;
-  height: 86px;
-  color: #000000;
-  font-size: 36px;
-  background: #FCC500;
-  border-radius: 35px;
-  position: relative;
-  margin-top: 80px;
-  max-width: 100%; }
-  .main__btn:before {
-    content: '';
+.main {
+  overflow: hidden; }
+  .main__inner {
+    position: relative;
+    padding: 100px 0 140px; }
+  .main__img {
     position: absolute;
-    z-index: 1;
-    box-sizing: border-box;
-    border: 3px solid #FCC500;
-    width: 100%;
-    height: 100%;
+    right: 0;
+    top: 0;
+    transform: translateX(120px); }
+  .main__title {
+    max-width: 920px; }
+  .main__desc {
+    max-width: 810px;
+    font-size: 24px;
+    line-height: 140%;
+    margin-top: 34px; }
+  .main__btn {
+    width: 302px;
+    height: 86px;
+    color: #000000;
+    font-size: 36px;
+    background: #FCC500;
     border-radius: 35px;
-    top: 7px;
-    left: 9px;
-    z-index: -1; }
-  .main__btn:hover {
-    background: #FFF616; }
-  .main__btn:active {
-    background: #874CD9;
-    color: #FCC500; }
+    position: relative;
+    margin-top: 80px;
+    max-width: 100%; }
+    .main__btn:before {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      box-sizing: border-box;
+      border: 3px solid #FCC500;
+      width: 100%;
+      height: 100%;
+      border-radius: 35px;
+      top: 7px;
+      left: 9px;
+      z-index: -1; }
+    .main__btn:hover {
+      background: #FFF616; }
+    .main__btn:active {
+      background: #874CD9;
+      color: #FCC500; }
 
 .advantages {
   padding: 125px 0 35px; }
@@ -133,6 +135,151 @@
       background: rgba(255, 255, 255, 0.3);
       backdrop-filter: blur(2px); }
 
+.how-work__inner {
+  position: relative; }
+.how-work__title {
+  text-align: center; }
+  .how-work__title span::before {
+    background-image: url(../img/decor3.svg); }
+.how-work__items {
+  margin: 93px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  max-width: calc(100% - 50px); }
+.how-work__item {
+  display: flex;
+  align-items: center;
+  position: relative; }
+  .how-work__item span {
+    max-width: 345px;
+    margin-left: 12px;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center; }
+  .how-work__item:nth-child(1) {
+    width: 100%;
+    justify-content: center;
+    order: 1;
+    margin-bottom: 80px; }
+    .how-work__item:nth-child(1) .how-work__item-arrow {
+      right: 170px;
+      top: 20px; }
+      @media screen and (max-width: 1200px) {
+        .how-work__item:nth-child(1) .how-work__item-arrow {
+          right: 110px; } }
+    .how-work__item:nth-child(1) span {
+      max-width: 310px; }
+  .how-work__item:nth-child(2) {
+    width: 50%;
+    order: 3;
+    justify-content: flex-end;
+    padding-right: 15px; }
+    .how-work__item:nth-child(2) .how-work__item-arrow {
+      left: 100%;
+      top: 90px;
+      margin-left: 20px; }
+      @media screen and (max-width: 1350px) {
+        .how-work__item:nth-child(2) .how-work__item-arrow {
+          margin-left: 5px; } }
+  .how-work__item:nth-child(3) {
+    width: 50%;
+    justify-content: flex-end;
+    order: 5;
+    margin-top: 150px; }
+    .how-work__item:nth-child(3) .how-work__item-arrow {
+      top: 100%;
+      right: 170px;
+      margin-top: 45px; }
+      @media screen and (max-width: 1200px) {
+        .how-work__item:nth-child(3) .how-work__item-arrow {
+          right: 100px; } }
+  .how-work__item:nth-child(4) {
+    width: 100%;
+    justify-content: center;
+    order: 6;
+    margin-top: 40px; }
+    .how-work__item:nth-child(4) .how-work__item-arrow {
+      left: 200px;
+      bottom: 20px; }
+      @media screen and (max-width: 1200px) {
+        .how-work__item:nth-child(4) .how-work__item-arrow {
+          left: 100px; } }
+  .how-work__item:nth-child(5) {
+    order: 4;
+    width: 50%;
+    margin-top: 150px; }
+    .how-work__item:nth-child(5) span {
+      max-width: 405px; }
+    .how-work__item:nth-child(5) .how-work__item-arrow {
+      bottom: 100%;
+      left: 0;
+      margin-bottom: 20px; }
+  .how-work__item:nth-child(6) {
+    width: 50%;
+    order: 2;
+    padding-left: 70px; }
+    .how-work__item:nth-child(6) span {
+      max-width: 250px; }
+  .how-work__item-arrow {
+    position: absolute; }
+    .how-work__item-arrow-mob {
+      display: none; }
+.how-work__img {
+  position: absolute;
+  width: 321px;
+  max-height: 321px;
+  left: 52%;
+  transform: translateX(-50%);
+  top: 300px; }
+
+.contacts {
+  padding: 130px 0; }
+  .contacts__inner {
+    position: relative; }
+  .contacts__title {
+    text-align: center; }
+    .contacts__title span::before {
+      background-image: url(../img/decor3.svg); }
+  .contacts__wrap {
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    justify-content: space-between;
+    margin-top: 100px; }
+  .contacts__img {
+    width: 560px;
+    max-width: 50%;
+    margin-right: 20px; }
+  .contacts__phone {
+    font-size: 36px;
+    line-height: 120%; }
+  .contacts__icon {
+    position: absolute;
+    right: 0;
+    top: -5px; }
+  .contacts__items {
+    flex-shrink: 0; }
+  .contacts__item {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 36px; }
+    .contacts__item a {
+      padding: 0;
+      width: 229px;
+      height: 53px;
+      border-radius: 26.5px;
+      margin-left: auto; }
+    .contacts__item--telegram a {
+      background: #00AAD0; }
+      .contacts__item--telegram a:hover {
+        background: rgba(0, 170, 208, 0.8); }
+    .contacts__item--whatsapp a {
+      background: #60D13A; }
+      .contacts__item--whatsapp a:hover {
+        background: rgba(96, 209, 58, 0.8); }
+
 @media screen and (max-width: 1400px) {
   .main__img {
     width: 550px;
@@ -199,7 +346,31 @@
       height: 80px;
       font-size: 36px; }
       .service__link:not(:last-child) {
-        margin-bottom: 20px; } }
+        margin-bottom: 20px; }
+
+  .how-work__img {
+    width: 280px;
+    max-height: 280px;
+    top: 280px; }
+  .how-work__item span {
+    font-size: 20px;
+    max-width: 290px;
+    margin-left: 3px; }
+  .how-work__item:nth-child(5) span {
+    max-width: 330px; }
+
+  .contacts__wrap {
+    margin-top: 0px;
+    display: block; }
+  .contacts__img {
+    margin: 50px auto;
+    max-width: 100%;
+    width: 400px;
+    display: block; } }
+  @media screen and (max-width: 1200px) and (max-width: 768px) {
+    .contacts__img {
+      width: 240px; } }
+
 @media screen and (max-width: 1050px) {
   .main__inner {
     padding: 0; }
@@ -243,12 +414,78 @@
     margin-top: 20px; }
   .advantages__item-desc {
     font-size: 24px;
-    line-height: 150%; } }
+    line-height: 150%; }
+
+  .how-work__img {
+    position: static;
+    margin: 50px auto 0;
+    display: block;
+    width: 300px;
+    max-width: calc(100% - 90px);
+    transform: unset; }
+  .how-work__items {
+    margin-top: 50px; }
+  .how-work__item {
+    width: 100% !important;
+    margin: 0 0 80px !important;
+    justify-content: flex-start !important;
+    order: 1 !important; }
+    .how-work__item:nth-child(1) {
+      margin-top: 0 !important; }
+    .how-work__item-arrow {
+      display: none; }
+      .how-work__item-arrow-mob {
+        display: block;
+        position: absolute; }
+    .how-work__item-icon {
+      width: 20px; }
+    .how-work__item span {
+      max-width: 100% !important;
+      text-align: left;
+      margin-left: 22px; }
+    .how-work__item:nth-child(odd) .how-work__item-arrow-mob {
+      right: 0;
+      top: 100%;
+      margin-top: 5px; }
+    .how-work__item:nth-child(even) .how-work__item-arrow-mob {
+      left: 0;
+      top: 100%;
+      margin-top: 15px; }
+    .how-work__item:nth-child(6) {
+      padding-left: 0; }
+
+  .contacts {
+    padding: 100px 0;
+    position: relative; }
+    .contacts__inner {
+      position: static; }
+    .contacts__icon {
+      right: unset;
+      top: 0;
+      left: 0;
+      width: 100px; } }
 @media screen and (max-width: 768px) {
   .main__title {
     font-size: 34px; }
 
   .service__links {
-    width: 320px; } }
+    width: 320px; }
+
+  .contacts__wrap {
+    padding: 0; }
+  .contacts__phone {
+    font-size: 20px; }
+  .contacts__items {
+    max-width: 300px;
+    margin: 0 auto; }
+  .contacts__item {
+    font-size: 20px;
+    margin-top: 20px; }
+    .contacts__item-icon {
+      width: 50px; }
+    .contacts__item a {
+      height: 40px;
+      width: 140px;
+      font-size: 20px; } }
 
 /*# sourceMappingURL=index.css.map */

@@ -11,6 +11,12 @@
   font-style: normal;
   font-display: swap; }
 @font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("ttf"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.eot") format("eot");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
   font-family: "Cimero Pro";
   src: url("../fonts/CimeroPro.otf");
   font-weight: 400; }
