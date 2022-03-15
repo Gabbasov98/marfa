@@ -2,8 +2,4 @@
 @include font-face('IdealistSans', 'IdealistSans', 400);
 @include font-face('Montserrat', 'Montserrat-Regular', 400);
 @include font-face('Montserrat', 'Montserrat-SemiBold', 600);
-@font-face {
-    font-family: "BoomBoom";
-    src: url('../fonts/boomboom.ttf'), url('../fonts/boomboom.woff'), url('../fonts/boomboom.woff2');
-    font-weight: 400;
-}
+@include font-face('Ubuntu', 'UbuntuCondensed-Regular', 600);

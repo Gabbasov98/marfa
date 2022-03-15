@@ -644,6 +644,12 @@
         &__links {
             width: 320px;
         }
+        &__link {
+            font-size: 30px;
+            @media screen and (max-width: 390px) {
+                font-size: 25px;
+            }
+        }
     }
     .contacts {
         &__wrap {

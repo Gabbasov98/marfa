@@ -470,7 +470,13 @@
 
   .service__links {
     width: 320px; }
+  .service__link {
+    font-size: 30px; } }
+  @media screen and (max-width: 768px) and (max-width: 390px) {
+    .service__link {
+      font-size: 25px; } }
 
+@media screen and (max-width: 768px) {
   .contacts__wrap {
     padding: 0; }
   .contacts__phone {

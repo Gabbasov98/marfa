@@ -17,8 +17,10 @@
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: "BoomBoom";
-  src: url("../fonts/boomboom.ttf"), url("../fonts/boomboom.woff"), url("../fonts/boomboom.woff2");
-  font-weight: 400; }
+  font-family: "Ubuntu";
+  src: url("../fonts/UbuntuCondensed-Regular.ttf") format("ttf"), url("../fonts/UbuntuCondensed-Regular.woff2") format("woff2"), url("../fonts/UbuntuCondensed-Regular.woff") format("woff"), url("../fonts/UbuntuCondensed-Regular.eot") format("eot");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
 
 /*# sourceMappingURL=fonts.css.map */
